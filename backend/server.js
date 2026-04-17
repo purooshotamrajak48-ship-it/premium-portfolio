@@ -25,3 +25,4 @@ app.post("/projects", async (req, res) => {
 })
 
 app.listen(5000, () => console.log("Server running"))
+mongoose.connect(process.env.MONGO_URI)
