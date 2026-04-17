@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const API = "http://localhost:5000"
+const API = "https://premium-portfolio-1krr.onrender.com"
 
 export default function App() {
   const [projects, setProjects] = useState([])
